@@ -1,0 +1,22 @@
+{
+    "name": "rainbow-drop",
+    "displayName": "Rainbow-Drop",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "danny",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rainbow-Drop",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Rainbow-Drop-color-theme.json"
+            }
+        ]
+    }
+}
