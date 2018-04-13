@@ -24,7 +24,10 @@
 		},
 		{
 			"name": "String",
-			"scope": "string",
+			"scope": [
+				"string",
+				"string.quoted.double.json"
+			],
 			"settings": {
 				"foreground": "#17C6A3"
 			}
@@ -135,8 +138,8 @@
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#F92672"
+				"fontStyle": "bold",
+				"foreground": "#FF55FF"
 			}
 		},
 		{
@@ -198,7 +201,7 @@
 		},
 		{
 			"name": "JSON String",
-			"scope": "meta.structure.dictionary.json string.quoted.double.json",
+			"scope": "meta.structure.dictionary.json",
 			"settings": {
 				"foreground": "#CFCFC2"
 			}
@@ -258,6 +261,7 @@
 			"name": "Object Keys",
 			"scope": [
 				"meta.object-literal.key",
+				"support.type.property-name",
 				"support.variable.property.dom"
 			],
 			"settings": {
@@ -307,7 +311,11 @@
 		},
 		{
 			"name": "Tags",
-			"scope": ["punctuation.definition.tag.begin","punctuation.definition.template-expression"],
+			"scope": [
+				"punctuation.definition.tag",
+				"punctuation.definition.template-expression",
+				"punctuation.section.embedded"
+			],
 			"settings": {
 				"foreground": "#0080FF",
 				"fontStyle": "bold"
